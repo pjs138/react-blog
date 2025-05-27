@@ -1,0 +1,61 @@
+.leftcolumn{
+    float:left;
+    width:75%;
+}
+
+.rightcolumn{
+    float:right;
+    width:25%;
+    padding-left:20px;
+}
+.card>div{color:#fff}
+.fakeimg{
+    background:#aaa;
+    width:100%;
+    padding:20px;
+}
+.card{
+    background:white;
+    padding:20px;
+    margin-top:20px;
+}
+
+/* float에 단점 양사이드를 깔끔히 처리 */
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.h200{height:200px;}
+.h100{
+    height:100px;
+    // font-weight:bold;
+    padding:2px;
+}
+
+.fakeimg1{
+    background:url(http://localhost:3000/img/img1.jpg)center center;
+    background-size:cover;
+   
+}
+.fakeimg2{
+    background:url(http://localhost:3000/img/img2.jpg)bottom center;
+    background-size:cover;
+    height:250px;
+}
+.fakeimg3{
+    background:url(http://localhost:3000/img/img3.jpg)center center;
+    background-size:cover;
+}
+.fakeimg4{
+    background:url(http://localhost:3000/img/img4.jpg)center center;
+    background-size:cover;
+}
+.fakeimg5{
+    background:url(http://localhost:3000/img/img5.jpg)center center;
+    background-size:cover;
+}
+.fakeimg6{
+    background:url(http://localhost:3000/img/img6.jpg)center center;
+    background-size:cover;
+}
